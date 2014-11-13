@@ -20,6 +20,9 @@ namespace WpfApplication4
     public partial class MainWindow : Window
     {
         public MainWindow()
+        {
+            
+        }
         
         void MainWindow_Loaded(object sender, RoutedEventArgs e)
         {
@@ -34,7 +37,12 @@ namespace WpfApplication4
 
      
 
-        Animal _animal = new Animal();    
+        Animal _animal = new Animal();
+
+        private void _button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }    
   
     }
 
